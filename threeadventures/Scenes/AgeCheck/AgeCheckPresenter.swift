@@ -1,8 +1,7 @@
 import Foundation
 
 protocol AgeCheckPresenting: AnyObject {
-    func displaySomething()
-    func didNextStep(action: AgeCheckAction)
+    func goToHome()
 }
 
 final class AgeCheckPresenter {
@@ -17,11 +16,7 @@ final class AgeCheckPresenter {
 
 // MARK: - AgeCheckPresenting
 extension AgeCheckPresenter: AgeCheckPresenting {
-    func displaySomething() {
-        viewController?.displaySomething()
-    }
-
-    func didNextStep(action: AgeCheckAction) {
-        coordinator.perform(action: action)
+    func goToHome() {
+        coordinator.perform(action: .goToHome)
     }
 }

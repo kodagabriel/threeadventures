@@ -1,7 +1,7 @@
 import UIKit
 
 enum AgeCheckAction {
-    // template
+    case goToHome
 }
 
 protocol AgeCheckCoordinating: AnyObject {
@@ -11,14 +11,19 @@ protocol AgeCheckCoordinating: AnyObject {
 final class AgeCheckCoordinator {
 
     weak var viewController: UIViewController?
+    private let delegate: MainCoordinating
 
-    init() {
+    init(delegate: MainCoordinating) {
+        self.delegate = delegate
     }
 }
 
 // MARK: - AgeCheckCoordinating
 extension AgeCheckCoordinator: AgeCheckCoordinating {
     func perform(action: AgeCheckAction) {
-        // template
+        switch action {
+        case .goToHome:
+            delegate.doAction(.goToHome)
+        }
     }
 }

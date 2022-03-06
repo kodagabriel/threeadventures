@@ -1,0 +1,26 @@
+input_dir: threeadventures
+output_dir: threeadventures/Generated/
+xcassets:
+  inputs: Resources/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: Assets.generated.swift
+    params:
+      publicAccess: false
+      enumName: "Assets"
+      forceProvidesNamespaces: true
+strings:
+  - inputs: Localizable
+    outputs:
+      templateName: structured-swift5
+      output: Strings.generated.swift
+      params:
+        publicAccess: false
+        enumName: "Strings"
+  - inputs: Accessibility
+    outputs:
+      templateName: structured-swift5
+      output: Accessibility.generated.swift
+      params:
+        publicAccess: false
+        enumName: "Accessibility"

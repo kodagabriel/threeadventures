@@ -73,6 +73,7 @@ final class AgeCheckViewController: ViewController<AgeCheckInteracting, UIView> 
         button.setTitle("Tenho mais de 18 anos", for: .normal)
         button.titleLabel?.font = UIFont.marcellusFont(size: Layout.Size.buttonFontSize)
         button.layer.borderColor = UIColor.white.cgColor
+        button.addTarget(self, action: #selector(didTouchConfirm), for: .touchDown)
         button.layer.borderWidth = 1
         return button
     }()
@@ -91,8 +92,6 @@ final class AgeCheckViewController: ViewController<AgeCheckInteracting, UIView> 
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        interactor.doSomething()
     }
 
     override func buildViewHierarchy() {
@@ -183,5 +182,9 @@ extension AgeCheckViewController {
         if let url = URL(string: "https://www.youtube.com/watch?v=hpOyXuKfz70") {
             UIApplication.shared.open(url)
         }
+    }
+
+    func didTouchConfirm() {
+        interactor.setUserOverEighteen()
     }
 }

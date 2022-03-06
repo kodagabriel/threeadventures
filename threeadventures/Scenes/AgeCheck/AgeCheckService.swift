@@ -1,3 +1,10 @@
+//
+//  AgeCheckService.swift
+//  threeadventures
+//
+//  Created by Koda Gabriel on 06/03/22.
+//
+
 import Foundation
 
 protocol AgeCheckServicing {
@@ -10,7 +17,7 @@ final class AgeCheckService {
     }
 }
 
-// MARK: - AgeCheckServicing
+// MARK: - AgeCheckService
 extension AgeCheckService: AgeCheckServicing {
     // template
 }

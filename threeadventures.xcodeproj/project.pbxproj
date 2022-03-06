@@ -10,6 +10,13 @@
 		4E35A5180885644AF0D84CBF /* Pods_threeadventures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9791E69E8EDEDE99EF1D87 /* Pods_threeadventures.framework */; };
 		827BE2A292E5D3EE31399848 /* Pods_threeadventures_threeadventuresUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8639549A44A6AE16346F49 /* Pods_threeadventures_threeadventuresUITests.framework */; };
 		CB6833D227D4FFC5009F802A /* UserSettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6833D127D4FFC5009F802A /* UserSettingsService.swift */; };
+		CB6953EA27D50E7D00F171D8 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6953E427D50E7D00F171D8 /* HomeCoordinator.swift */; };
+		CB6953EB27D50E7D00F171D8 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6953E527D50E7D00F171D8 /* HomeFactory.swift */; };
+		CB6953EC27D50E7D00F171D8 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6953E627D50E7D00F171D8 /* HomePresenter.swift */; };
+		CB6953ED27D50E7D00F171D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6953E727D50E7D00F171D8 /* HomeViewController.swift */; };
+		CB6953EE27D50E7D00F171D8 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6953E827D50E7D00F171D8 /* HomeInteractor.swift */; };
+		CB6953EF27D50E7D00F171D8 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6953E927D50E7D00F171D8 /* HomeService.swift */; };
+		CB6953F127D50E8900F171D8 /* AgeCheckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6953F027D50E8900F171D8 /* AgeCheckService.swift */; };
 		CBA61EE827CC0C5F00547EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA61EE727CC0C5F00547EDE /* AppDelegate.swift */; };
 		CBA61EF127CC0C6000547EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA61EF027CC0C6000547EDE /* Assets.xcassets */; };
 		CBA61EF427CC0C6000547EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA61EF227CC0C6000547EDE /* LaunchScreen.storyboard */; };
@@ -22,8 +29,6 @@
 		CBA61F2527CC0D2600547EDE /* AgeCheckPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA61F1F27CC0D2600547EDE /* AgeCheckPresenter.swift */; };
 		CBA61F2627CC0D2600547EDE /* AgeCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA61F2027CC0D2600547EDE /* AgeCheckViewController.swift */; };
 		CBA61F2727CC0D2600547EDE /* AgeCheckInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA61F2127CC0D2600547EDE /* AgeCheckInteractor.swift */; };
-		CBA61F2827CC0D2600547EDE /* AgeCheckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA61F2227CC0D2600547EDE /* AgeCheckService.swift */; };
-		CBA61F2A27CC0D3700547EDE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA61F2927CC0D3700547EDE /* Coordinator.swift */; };
 		CBA61F2D27CC0EB900547EDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA61F2C27CC0EB900547EDE /* ViewController.swift */; };
 		CBA61F3127CC2F7E00547EDE /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA61F3027CC2F7E00547EDE /* UIView+Extensions.swift */; };
 		CBA61F3927CC373B00547EDE /* Assets.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA61F3627CC373B00547EDE /* Assets.generated.swift */; };
@@ -59,6 +64,13 @@
 		9154DA702A963E557E0FC4F2 /* Pods-threeadventures-threeadventuresUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-threeadventures-threeadventuresUITests.release.xcconfig"; path = "Target Support Files/Pods-threeadventures-threeadventuresUITests/Pods-threeadventures-threeadventuresUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9BABA1290A3060ACF5E94475 /* Pods-threeadventuresTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-threeadventuresTests.debug.xcconfig"; path = "Target Support Files/Pods-threeadventuresTests/Pods-threeadventuresTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB6833D127D4FFC5009F802A /* UserSettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsService.swift; sourceTree = "<group>"; };
+		CB6953E427D50E7D00F171D8 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		CB6953E527D50E7D00F171D8 /* HomeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFactory.swift; sourceTree = "<group>"; };
+		CB6953E627D50E7D00F171D8 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		CB6953E727D50E7D00F171D8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB6953E827D50E7D00F171D8 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		CB6953E927D50E7D00F171D8 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		CB6953F027D50E8900F171D8 /* AgeCheckService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCheckService.swift; sourceTree = "<group>"; };
 		CBA61EE427CC0C5F00547EDE /* threeadventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = threeadventures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA61EE727CC0C5F00547EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBA61EF027CC0C6000547EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,8 +87,6 @@
 		CBA61F1F27CC0D2600547EDE /* AgeCheckPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCheckPresenter.swift; sourceTree = "<group>"; };
 		CBA61F2027CC0D2600547EDE /* AgeCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCheckViewController.swift; sourceTree = "<group>"; };
 		CBA61F2127CC0D2600547EDE /* AgeCheckInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCheckInteractor.swift; sourceTree = "<group>"; };
-		CBA61F2227CC0D2600547EDE /* AgeCheckService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCheckService.swift; sourceTree = "<group>"; };
-		CBA61F2927CC0D3700547EDE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		CBA61F2C27CC0EB900547EDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBA61F3027CC2F7E00547EDE /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		CBA61F3627CC373B00547EDE /* Assets.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.generated.swift; sourceTree = "<group>"; };
@@ -143,11 +153,30 @@
 		CB6833CF27D4FFAA009F802A /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				CB6833D127D4FFC5009F802A /* UserSettingsService.swift */,
 				CBA61F1927CC0D0900547EDE /* MainCoordinator.swift */,
-				CBA61F2927CC0D3700547EDE /* Coordinator.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		CB6953E227D50DE100F171D8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CB6833D127D4FFC5009F802A /* UserSettingsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CB6953E327D50E6E00F171D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB6953E427D50E7D00F171D8 /* HomeCoordinator.swift */,
+				CB6953E527D50E7D00F171D8 /* HomeFactory.swift */,
+				CB6953E627D50E7D00F171D8 /* HomePresenter.swift */,
+				CB6953E727D50E7D00F171D8 /* HomeViewController.swift */,
+				CB6953E827D50E7D00F171D8 /* HomeInteractor.swift */,
+				CB6953E927D50E7D00F171D8 /* HomeService.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		CBA61EDB27CC0C5F00547EDE = {
@@ -180,6 +209,7 @@
 				CBA61F3327CC35EC00547EDE /* Localizable */,
 				CBA61F2F27CC2F7100547EDE /* Extensions */,
 				CBA61F2B27CC0EA800547EDE /* Commons */,
+				CB6953E227D50DE100F171D8 /* Services */,
 				CBA61F1B27CC0D1300547EDE /* Scenes */,
 				CBA61F1827CC0CA300547EDE /* Resources */,
 				CBA61F1727CC0C8600547EDE /* Sources */,
@@ -226,6 +256,7 @@
 		CBA61F1B27CC0D1300547EDE /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				CB6953E327D50E6E00F171D8 /* Home */,
 				CB6833CF27D4FFAA009F802A /* Main */,
 				CBA61F1C27CC0D1800547EDE /* AgeCheck */,
 			);
@@ -240,7 +271,7 @@
 				CBA61F1F27CC0D2600547EDE /* AgeCheckPresenter.swift */,
 				CBA61F2027CC0D2600547EDE /* AgeCheckViewController.swift */,
 				CBA61F2127CC0D2600547EDE /* AgeCheckInteractor.swift */,
-				CBA61F2227CC0D2600547EDE /* AgeCheckService.swift */,
+				CB6953F027D50E8900F171D8 /* AgeCheckService.swift */,
 			);
 			path = AgeCheck;
 			sourceTree = "<group>";
@@ -569,20 +600,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6953F127D50E8900F171D8 /* AgeCheckService.swift in Sources */,
+				CB6953EF27D50E7D00F171D8 /* HomeService.swift in Sources */,
 				CBA61F2627CC0D2600547EDE /* AgeCheckViewController.swift in Sources */,
 				CBA61F3F27CC3E3D00547EDE /* UIFont+Extensions.swift in Sources */,
+				CB6953ED27D50E7D00F171D8 /* HomeViewController.swift in Sources */,
+				CB6953EE27D50E7D00F171D8 /* HomeInteractor.swift in Sources */,
 				CBA61F2727CC0D2600547EDE /* AgeCheckInteractor.swift in Sources */,
-				CBA61F2A27CC0D3700547EDE /* Coordinator.swift in Sources */,
 				CBA61F3A27CC373B00547EDE /* Strings.generated.swift in Sources */,
 				CBA61EE827CC0C5F00547EDE /* AppDelegate.swift in Sources */,
 				CBA61F3B27CC373B00547EDE /* Accessibility.generated.swift in Sources */,
 				CBA61F2D27CC0EB900547EDE /* ViewController.swift in Sources */,
 				CBA61F3927CC373B00547EDE /* Assets.generated.swift in Sources */,
+				CB6953EB27D50E7D00F171D8 /* HomeFactory.swift in Sources */,
 				CBA61F2527CC0D2600547EDE /* AgeCheckPresenter.swift in Sources */,
 				CB6833D227D4FFC5009F802A /* UserSettingsService.swift in Sources */,
 				CBA61F1A27CC0D0900547EDE /* MainCoordinator.swift in Sources */,
-				CBA61F2827CC0D2600547EDE /* AgeCheckService.swift in Sources */,
 				CBA61F2427CC0D2600547EDE /* AgeCheckFactory.swift in Sources */,
+				CB6953EA27D50E7D00F171D8 /* HomeCoordinator.swift in Sources */,
+				CB6953EC27D50E7D00F171D8 /* HomePresenter.swift in Sources */,
 				CBA61F2327CC0D2600547EDE /* AgeCheckCoordinator.swift in Sources */,
 				CBA61F3127CC2F7E00547EDE /* UIView+Extensions.swift in Sources */,
 			);

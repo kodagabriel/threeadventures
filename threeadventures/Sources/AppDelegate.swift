@@ -13,11 +13,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?)
-                        -> Bool {
+    -> Bool {
         // Override point for customization after application launch.
         let coordinator = MainCoordinator()
-        window = coordinator.start()
-        window?.makeKeyAndVisible()
+        window = coordinator.getWindow()
+        coordinator.start()
         return true
     }
 }
