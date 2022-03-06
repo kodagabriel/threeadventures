@@ -11,6 +11,7 @@
 *.xcworkspace/
 *.orig
 *.vscode/
+*.pbxproj
 
 ## Build generated
 .build
